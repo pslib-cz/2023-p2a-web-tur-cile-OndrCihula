@@ -38,15 +38,17 @@ html {
     padding: 1em;
     color: var(--text-light);
     position: absolute;
+    width: max-content;
     bottom: 0;
+    left: 0;
+    transition: bottom .5s, left .5s, transform .5s;
 }
 /* TODO */
 .categories__item:hover .categories__item-description {
-    width: max-content;
     bottom: 50%;
     left: 50%;
     transform: translateY(50%) translateX(-50%);
-    transition: transform .5s;
+    
 }
 
 /* Global */
